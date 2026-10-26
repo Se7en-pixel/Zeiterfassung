@@ -138,5 +138,6 @@ class BootReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
         Store.init(context)
         Reminders.schedule(context)
+        ZeitWidget.updateAll(context)
     }
 }
