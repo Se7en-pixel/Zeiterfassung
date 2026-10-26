@@ -40,6 +40,7 @@ object Store {
         tmp.writeText(data.toJson().toString(2))
         tmp.renameTo(f)
         Reminders.schedule(ctx)
+        ZeitWidget.updateAll(ctx)
     }
 
     private fun nowMinute(): LocalTime = LocalTime.now().withSecond(0).withNano(0)

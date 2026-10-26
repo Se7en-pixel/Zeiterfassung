@@ -21,6 +21,7 @@ class MainActivity : ComponentActivity() {
         Store.init(this)
         Reminders.ensureChannel(this)
         Reminders.schedule(this)
+        ZeitWidget.updateAll(this)
         setContent { AppTheme { App() } }
     }
 }

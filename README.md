@@ -10,6 +10,7 @@ Eine einfache Android-App, um Arbeitszeiten zu erfassen: Kommen, Gehen, Pause.
 - **Überstunden pro Kalenderwoche** und insgesamt. Tage ohne Eintrag werden als „fehlt“ markiert.
 - **Arbeitszeiten pro Wochentag** frei einstellbar (z. B. Mo–Do 9–18 Uhr, Fr 9–12 Uhr). Daraus ergibt sich die Sollzeit.
 - **Erinnerungen** zum Arbeitsbeginn („Möchtest du einstempeln?“) und zum Feierabend („Möchtest du ausstempeln?“), mit Knopf direkt in der Benachrichtigung.
+- **Widget** für den Startbildschirm mit Kommen/Gehen-Knopf und laufender Arbeitszeit, in der Größe verstellbar.
 - **CSV-Export** zum Teilen oder Öffnen in Excel.
 
 Alle Daten bleiben auf dem Handy.
@@ -19,7 +20,8 @@ Alle Daten bleiben auf dem Handy.
 1. Auf dem Android-Handy die neueste Version öffnen:
    https://github.com/Se7en-pixel/zeiterfassung/releases/latest/download/zeiterfassung.apk
 2. Die Datei öffnen. Android fragt beim ersten Mal, ob der Browser Apps installieren darf: erlauben.
-3. Neue Versionen werden genauso installiert und ersetzen die alte. Die gespeicherten Zeiten bleiben erhalten.
+3. Neue Versionen werden genauso installiert: Android bietet dann „Aktualisieren“ an, die gespeicherten Zeiten bleiben erhalten.
+   Die alte App **nicht** vorher deinstallieren, sonst sind die Daten weg.
 
 ## Technik
 
